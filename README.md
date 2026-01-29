@@ -1,254 +1,99 @@
-# 🌿 Plant Classification System
+# Hi, I'm Chaitanya 👋
 
-A web-based plant identification tool powered by deep learning. Upload an image of a plant, and the system identifies the species with confidence scores plus detailed botanical information.
+I'm a Master's student in Computer Science at Northeastern University, passionate about building things that actually work. I love the challenge of taking an idea from concept to deployment - whether it's training a neural network or architecting a full-stack application.
 
-## What I Built
+## What I'm Working On
 
-I wanted to learn how CNNs actually work in production, so I trained a model to recognize 15 different plant species and deployed it as a real web app. The interesting part was figuring out how to go from a trained model to something anyone could use through their browser.
+Currently diving deep into:
+- **Web Development** - Building full-stack applications with Next.js and Node.js
+- **Algorithms** - Strengthening my problem-solving skills for technical interviews
+- **Cloud Architecture** - Learning AWS services and serverless deployment
+- **Machine Learning** - Exploring CNNs and practical ML deployment
 
-**What it does:**
-- Identifies 15 plant species from uploaded images
-- Provides confidence scores for predictions
-- Shows botanical information (scientific name, genus, habitat)
-- Works through a simple web interface
-- Processes images in real-time (~6-7 seconds)
+## Recent Projects
 
-**Real stats:** The CNN achieves around 85-87% accuracy on the test set, which is pretty solid for a relatively small model running on CPU.
+### 🤖 Multi-Channel Bot Service
+A serverless chatbot platform built entirely on AWS Free Tier. Processes 50K+ messages monthly using Lambda, SQS, and DynamoDB with zero infrastructure cost. The interesting challenge was designing an event-driven architecture that scales automatically.
 
----
+**Tech:** Python, AWS Lambda, SQS, DynamoDB, API Gateway
 
-## How It Works
+### 🌿 Plant Classification System
+A web app that identifies 15 plant species from images using a custom-trained CNN. Built the entire pipeline from model training to deployment. Achieves 85-87% accuracy and serves predictions through a Flask web interface.
 
-**The Simple Version:**
-1. You upload a plant image through the web interface
-2. The Flask backend receives and preprocesses it (resize to 256x256, normalize)
-3. The trained CNN model (stored as .h5 file) analyzes the image
-4. Model outputs probabilities for all 15 species
-5. System picks the highest probability and looks up botanical info from Excel
-6. Results display with species name, confidence, and plant details
+**Tech:** Python, TensorFlow, Keras, Flask, CNN
 
-**Why This Architecture?**
-- **CNN model** = The brain that learned plant features during training
-- **Flask backend** = Handles image uploads and serves predictions
-- **Gevent WSGI** = Production-ready server (not Flask's dev server)
-- **Excel database** = Simple storage for botanical information
+### 📚 Kambaz Learning Management System
+A comprehensive LMS with course management, assignments, quizzes, and role-based access control. Implementing features like quiz scheduling, auto-grading, and enrollment management. Currently my biggest full-stack project.
 
-**Key Design Choice:** I separated the model training from deployment. The .h5 file contains all the learned weights, so the web app just loads it once on startup and reuses it for all predictions.
+**Tech:** Next.js, React, Redux, Node.js, Express, MongoDB
 
----
+## Technical Skills
 
-## Plant Species Supported
+**Languages:** Python, JavaScript, Java, C, SQL
 
-The model recognizes these 15 species:
-- Jade Plant
-- Lucky Bamboo
-- Venus Fly Trap
-- Zebra Plant
-- Poinsettia
-- String of Bananas
-- Paddle Plant
-- Nerve Plant
-- Moon Cactus
-- House Leek
-- Elephant Ear
-- Coleus
-- Begonia Maculata
-- Acer Capillipes
-- Acer Circinatum
+**Web Development:** Next.js, React, Node.js, Express, Flask, HTML/CSS
 
----
+**Databases:** MongoDB, MySQL, PostgreSQL, DynamoDB
 
-## Tech Stack
+**Cloud & DevOps:** AWS (Lambda, SQS, DynamoDB, S3, EC2), Docker, Git
 
-**Machine Learning:**
-- TensorFlow/Keras for the CNN model
-- Python 3.11
-- NumPy for array operations
+**Machine Learning:** TensorFlow, Keras, PyTorch, scikit-learn, Pandas, NumPy
 
-**Web Application:**
-- Flask as the web framework
-- Gevent WSGI server for production
-- HTML/CSS/JavaScript for the frontend
-- Base64 encoding for image transfer
+**Tools:** VS Code, IntelliJ, Jupyter, Postman, AWS CLI
 
-**Data Management:**
-- Pandas for reading Excel database
-- Excel file with botanical information
+## Professional Experience
 
----
+**Oracle Financial Services Software** - Software Engineering Intern
+- Worked on enterprise financial applications
+- Gained experience with production codebases and development workflows
 
-## Getting Started
+**ESDS Software Solutions** - Software Engineering Intern
+- Contributed to cloud infrastructure projects
+- Learned about scalable system design
 
-**Requirements:**
-```bash
-pip install tensorflow flask gevent pandas pillow numpy
-```
+## What I'm Learning
 
-**Run the app:**
-```bash
-python app.py
-```
+Right now I'm focused on:
+- Advanced algorithms and data structures (preparing for technical interviews)
+- Building production-ready web applications with proper authentication and authorization
+- AWS architecture patterns and serverless computing
+- System design principles for scalable applications
 
-Then open your browser to `http://localhost:5000`
+## Education
 
----
+**Northeastern University** - Master of Science in Computer Science (2025-2027)
+- Current GPA: 3.95/4.0
+- Courses: Web Development, Algorithms, Database Management Systems
 
-## Project Structure
+**University of Mumbai** - Bachelor of Engineering in Computer Engineering
 
-```
-plant-classification-system/
-├── app.py                          # Flask application
-├── UrbanPlantClassifier.h5         # Trained CNN model
-├── plantsDescription.xlsx          # Botanical information database
-├── templates/
-│   └── index.html                  # Web interface
-└── static/
-    └── css/
-        └── style.css               # Styling
-```
+## How I Work
+
+I believe in:
+- **Learning by building** - The best way to understand something is to build it yourself
+- **Clean code** - If it's hard to read, it's hard to maintain
+- **Documentation** - Future me (and others) will thank present me
+- **Iteration** - First make it work, then make it better
+- **Open source** - Sharing knowledge helps everyone grow
+
+## Let's Connect
+
+I'm always interested in discussing:
+- Software engineering and system design
+- Machine learning projects and deployment challenges
+- Web development best practices
+- Career advice for students
+- Interesting technical problems
+
+**Find me:**
+- 💼 LinkedIn: [your-linkedin](https://linkedin.com/in/yourprofile)
+- 📧 Email: your.email@northeastern.edu
+- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
+
+## GitHub Stats
+
+I'm actively building and learning. Check out my repositories to see what I'm working on!
 
 ---
 
-## How the CNN Works
-
-**Model Architecture:**
-The model is a convolutional neural network trained to recognize visual patterns in plant images. Here's what happens during prediction:
-
-1. **Input Layer:** Receives 256x256 RGB image (3 color channels)
-2. **Convolutional Layers:** Extract features like edges, textures, leaf patterns
-3. **Pooling Layers:** Reduce dimensions while keeping important features
-4. **Dense Layers:** Combine features to make final classification
-5. **Output Layer:** 15 neurons with softmax activation (one per species)
-
-**Training Process:**
-- Images were resized and normalized (pixel values 0-1)
-- Used ReLU activation for non-linearity
-- Applied dropout to prevent overfitting
-- Trained with categorical crossentropy loss
-- Optimized with Adam optimizer
-
----
-
-## Performance
-
-Real numbers from my testing:
-- **Accuracy:** 85-87% on validation set
-- **Inference time:** 6-7 seconds per image (CPU)
-- **Model size:** Compact enough to run on free hosting
-- **Input format:** Any common image format (JPEG, PNG, etc.)
-- **Image size:** Automatically resized to 256x256
-
-**What affects accuracy:**
-- Image quality and lighting
-- How clearly the plant is visible
-- Whether the plant looks similar to training images
-- Background clutter in the photo
-
----
-
-## What Makes This Interesting
-
-**Real Machine Learning Deployment:**
-This isn't just a Jupyter notebook - it's a complete ML pipeline from training to production. The .h5 file is the actual trained model with all learned weights. Without it, the app can't classify anything.
-
-**End-to-End Pipeline:**
-I handled everything: data preprocessing, model training, evaluation, deployment, and building the web interface. This gave me hands-on experience with the full ML lifecycle.
-
-**Production Considerations:**
-Used Gevent WSGI server instead of Flask's development server, implemented proper error handling, and made sure the model loads efficiently on startup.
-
----
-
-## What I Learned
-
-Building this taught me:
-- **CNNs in practice** - How convolutional layers actually extract features
-- **Model deployment** - Loading .h5 files and serving predictions via API
-- **Image preprocessing** - Critical importance of matching training specifications
-- **Flask integration** - Connecting ML models with web frameworks
-- **Trade-offs** - Balancing model complexity vs inference speed
-
-**Challenges I solved:**
-- Handling different image formats and sizes from users
-- Ensuring preprocessing matches training pipeline exactly
-- Managing TensorFlow/Keras version compatibility
-- Building a clean interface for non-technical users
-
----
-
-## How to Test It
-
-**Try these plants:**
-1. Upload a clear image of the plant
-2. Make sure the plant is the main focus
-3. Avoid extreme angles or lighting
-4. Wait ~6-7 seconds for processing
-
-**The app returns:**
-- Predicted species name
-- Confidence score (0-100%)
-- Scientific name
-- Genus classification
-- Natural habitat information
-
----
-
-## Possible Improvements
-
-If I were to extend this project:
-- Add more plant species (currently limited to 15)
-- Implement transfer learning (ResNet, EfficientNet) for better accuracy
-- Add data augmentation during training (rotations, flips, brightness changes)
-- Create a mobile app version for field use
-- Implement caching for faster repeated predictions
-- Add user feedback to improve the model over time
-- Support for identifying multiple plants in one image
-
----
-
-## Why This Project Matters
-
-**For Learning:**
-This project bridges the gap between learning CNNs in theory and deploying them in practice. Understanding how to go from `model.fit()` to a production web app is crucial for ML engineering roles.
-
-**For Users:**
-Plant identification can help gardeners, botanists, and plant enthusiasts quickly learn about species they encounter. The added botanical information makes it educational.
-
-**For My Portfolio:**
-Demonstrates ability to train deep learning models, deploy them in production, and build complete applications - not just run tutorial notebooks.
-
----
-
-## Technical Details for Interviews
-
-**Model Training:**
-- Used categorical crossentropy loss (multi-class classification)
-- Adam optimizer with learning rate scheduling
-- Validation split to monitor overfitting
-- Early stopping to prevent overtraining
-
-**Deployment:**
-- Model loaded once on server startup (efficient)
-- Images preprocessed to match training specifications
-- Predictions served via REST API
-- Gevent WSGI server for concurrent requests
-
-**Data Pipeline:**
-- Images resized to 256x256 pixels
-- Pixel values normalized to [0, 1]
-- RGB format maintained
-- Excel lookup for botanical information
-
----
-
-## Contact
-
-**Chaitanya** - MS Computer Science @ Northeastern University
-
-- LinkedIn: [your-profile](https://linkedin.com/in/yourprofile)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@northeastern.edu
-
----
-
-**Built to learn CNNs in production. If this helps you learn too, give it a star! ⭐**
+*Currently based in Boston, MA. Open to software engineering internships and full-time opportunities starting Summer 2027.*
