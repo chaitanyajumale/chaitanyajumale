@@ -62,10 +62,8 @@ Right now I'm focused on:
 ## Education
 
 **Northeastern University** - Master of Science in Computer Science (2025-2027)
-- Current GPA: 3.95/4.0
-- Courses: Web Development, Algorithms, Database Management Systems
 
-**University of Mumbai** - Bachelor of Engineering in Computer Engineering
+**NMIMS University** - Bachelor of Engineering in Computer Engineering(hons.) (2019-2023)
 
 ## How I Work
 
@@ -86,9 +84,9 @@ I'm always interested in discussing:
 - Interesting technical problems
 
 **Find me:**
-- 💼 LinkedIn: [your-linkedin](https://linkedin.com/in/yourprofile)
-- 📧 Email: your.email@northeastern.edu
-- 🌐 Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- 💼 LinkedIn: https://linkedin.com/in/chaitanya-jumale
+- 📧 Email: jumale.c@northeastern.edu
+- 🌐 Portfolio: https://personal-portfolio-cj-v6zp.vercel.app
 
 ## GitHub Stats
 
@@ -96,4 +94,4 @@ I'm actively building and learning. Check out my repositories to see what I'm wo
 
 ---
 
-*Currently based in Boston, MA. Open to software engineering internships and full-time opportunities starting Summer 2027.*
+*Currently based in Boston, MA. Open to software engineering internship opportunities starting Summer 2026.*
