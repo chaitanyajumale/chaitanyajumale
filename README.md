@@ -54,7 +54,6 @@ A comprehensive LMS with course management, assignments, quizzes, and role-based
 ## What I'm Learning
 
 Right now I'm focused on:
-- Advanced algorithms and data structures (preparing for technical interviews)
 - Building production-ready web applications with proper authentication and authorization
 - AWS architecture patterns and serverless computing
 - System design principles for scalable applications
