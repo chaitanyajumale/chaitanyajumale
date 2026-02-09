@@ -43,7 +43,7 @@ A comprehensive LMS with course management, assignments, quizzes, and role-based
 
 ## Professional Experience
 
-**Oracle Financial Services Software** - Software Engineering Intern
+**Oracle** - Software Engineer 
 - Worked on enterprise financial applications
 - Gained experience with production codebases and development workflows
 
