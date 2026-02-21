@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Full-Stack Engineer | Turning ideas into shipped systems**
+**Software Engineer | Turning ideas into shipped systems**
 
 `MS CS @ Northeastern University`
 
@@ -14,8 +14,8 @@
 
 - 💼 **Seeking:** Summer 2026 SWE Internships (USA)
 - 🎓 **Studying:** Algorithms, System Design, Object Oriented Programming at Northeastern
-- 🔧 **Building:** Serverless microservices chatbot, Full-stack fitness tracker, ML plant classifier
-- ⚡ **Recent Win:** Engineered REST API SDKs handling 30% higher traffic capacity with 10% latency reduction
+- 🔧 **Building:** Serverless microservices chatbot, Full-stack fitness tracker, ML plant classifier, Fitness tracking webpage
+- 🏆 **Past Impact:** Coordinated 500 GB live data migration with zero data loss across banking infrastructure
 
 ---
 
