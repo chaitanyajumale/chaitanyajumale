@@ -1,4 +1,3 @@
-<div align="center">
 # 👋 Hello, I'm Chaitanya Jumale
 
 <div align="center">
