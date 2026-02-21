@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**Full-Stack Engineer | Building Scalable Systems & Cloud-Native Solutions**
+**Full-Stack Engineer | Turning ideas into shipped systems**
 
 `MS CS @ Northeastern University`
 
