@@ -1,96 +1,99 @@
-# Hi, I'm Chaitanya 👋
+# 👋 Hello, I'm Chaitanya Jumale
 
-I'm a Master's student in Computer Science at Northeastern University, passionate about building things that actually work. I love the challenge of taking an idea from concept to deployment - whether it's training a neural network or architecting a full-stack application.
+<div align="center">
 
-## What I'm Working On
+**Full-Stack Engineer | Building Scalable Systems & Cloud-Native Solutions**
 
-Currently diving deep into:
-- **Web Development** - Building full-stack applications with Next.js and Node.js
-- **Algorithms** - Strengthening my problem-solving skills for technical interviews
-- **Cloud Architecture** - Learning AWS services and serverless deployment
-- **Machine Learning** - Exploring CNNs and practical ML deployment
+`MS CS @ Northeastern University`
 
-## Recent Projects
-
-### 🤖 Multi-Channel Bot Service
-A serverless chatbot platform built entirely on AWS Free Tier. Processes 50K+ messages monthly using Lambda, SQS, and DynamoDB with zero infrastructure cost. The interesting challenge was designing an event-driven architecture that scales automatically.
-
-**Tech:** Python, AWS Lambda, SQS, DynamoDB, API Gateway
-
-### 🌿 Plant Classification System
-A web app that identifies 15 plant species from images using a custom-trained CNN. Built the entire pipeline from model training to deployment. Achieves 85-87% accuracy and serves predictions through a Flask web interface.
-
-**Tech:** Python, TensorFlow, Keras, Flask, CNN
-
-### 📚 Kambaz Learning Management System
-A comprehensive LMS with course management, assignments, quizzes, and role-based access control. Implementing features like quiz scheduling, auto-grading, and enrollment management. Currently my biggest full-stack project.
-
-**Tech:** Next.js, React, Redux, Node.js, Express, MongoDB
-
-## Technical Skills
-
-**Languages:** Python, JavaScript, Java, C, SQL
-
-**Web Development:** Next.js, React, Node.js, Express, Flask, HTML/CSS
-
-**Databases:** MongoDB, MySQL, PostgreSQL, DynamoDB
-
-**Cloud & DevOps:** AWS (Lambda, SQS, DynamoDB, S3, EC2), Docker, Git
-
-**Machine Learning:** TensorFlow, Keras, PyTorch, scikit-learn, Pandas, NumPy
-
-**Tools:** VS Code, IntelliJ, Jupyter, Postman, AWS CLI
-
-## Professional Experience
-
-**Oracle** - Software Engineer 
-- Worked on enterprise financial applications
-- Gained experience with production codebases and development workflows
-
-**ESDS Software Solutions** - Software Engineering Intern
-- Contributed to cloud infrastructure projects
-- Learned about scalable system design
-
-## What I'm Learning
-
-Right now I'm focused on:
-- Building production-ready web applications with proper authentication and authorization
-- AWS architecture patterns and serverless computing
-- System design principles for scalable applications
-
-## Education
-
-**Northeastern University** - Master of Science in Computer Science (2025-2027)
-
-**NMIMS University** - Bachelor of Engineering in Computer Engineering(hons.) (2019-2023)
-
-## How I Work
-
-I believe in:
-- **Learning by building** - The best way to understand something is to build it yourself
-- **Clean code** - If it's hard to read, it's hard to maintain
-- **Documentation** - Future me (and others) will thank present me
-- **Iteration** - First make it work, then make it better
-- **Open source** - Sharing knowledge helps everyone grow
-
-## Let's Connect
-
-I'm always interested in discussing:
-- Software engineering and system design
-- Machine learning projects and deployment challenges
-- Web development best practices
-- Career advice for students
-- Interesting technical problems
-
-**Find me:**
-- 💼 LinkedIn: https://linkedin.com/in/chaitanya-jumale
-- 📧 Email: jumale.c@northeastern.edu
-- 🌐 Portfolio: https://personal-portfolio-cj-v6zp.vercel.app
-
-## GitHub Stats
-
-I'm actively building and learning. Check out my repositories to see what I'm working on!
+</div>
 
 ---
 
-*Currently based in Boston, MA. Open to software engineering internship opportunities starting Summer 2026.*
+## 🚀 Current Focus
+
+- 💼 **Seeking:** Summer 2026 SWE Internships (USA)
+- 🎓 **Studying:** Algorithms, System Design, Object Oriented Programming at Northeastern
+- 🔧 **Building:** Serverless microservices chatbot, Full-stack fitness tracker, ML plant classifier
+- ⚡ **Recent Win:** Engineered REST API SDKs handling 30% higher traffic capacity with 10% latency reduction
+
+---
+
+## 💻 Tech Stack
+
+**Languages:**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+**Backend & Frameworks:**
+
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+**Databases & Messaging:**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![OracleDB](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+
+**Cloud & DevOps:**
+
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+**AI / Data:**
+
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+**Tools & Platforms:**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+
+---
+
+## 📌 Featured Projects
+
+| Project | Stack | Link |
+|--------|-------|------|
+| 🤖 Multi-Channel Bot Service | Python, AWS Lambda, SQS, DynamoDB, Docker | [github.com/chaitanyajumale/boto](https://github.com/chaitanyajumale/boto) |
+| 💪 Full-Stack Fitness Tracker | Next.js, Node.js, MongoDB, Redis, JWT | [github.com/chaitanyajumale/fitmetrics](https://github.com/chaitanyajumale/fitmetrics) |
+| 🌿 Plant Classification ML | Python, CNN, TensorFlow, ReLU | [github.com/chaitanyajumale/urban_planter](https://github.com/chaitanyajumale/urban_planter) |
+
+---
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/chaitanya-jumale)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chaitanyajumale)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jumale.c@northeastern.edu)
+
+</div>
+
+---
+
+<div align="center">
+
+💼 Actively seeking Summer 2026 SWE Internships | 🚀 Always building
+
+</div>
