@@ -70,16 +70,6 @@
 
 ---
 
-## 📌 Featured Projects
-
-| Project | Stack | Link |
-|--------|-------|------|
-| 🤖 Multi-Channel Bot Service | Python, AWS Lambda, SQS, DynamoDB, Docker | [github.com/chaitanyajumale/boto](https://github.com/chaitanyajumale/boto) |
-| 💪 Full-Stack Fitness Tracker | Next.js, Node.js, MongoDB, Redis, JWT | [github.com/chaitanyajumale/fitmetrics](https://github.com/chaitanyajumale/fitmetrics) |
-| 🌿 Plant Classification ML | Python, CNN, TensorFlow, ReLU | [github.com/chaitanyajumale/urban_planter](https://github.com/chaitanyajumale/urban_planter) |
-
----
-
 ## 🤝 Let's Connect
 
 <div align="center">
