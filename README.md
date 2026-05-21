@@ -84,6 +84,6 @@
 
 <div align="center">
 
-💼 Actively seeking Summer 2026 SWE Internships | 🚀 Always building
+💼 Actively seeking SWE Oppurtunities | 🚀 Always building
 
 </div>
