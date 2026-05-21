@@ -12,7 +12,7 @@
 
 ## 🚀 Current Focus
 
-- 💼 **Seeking:** Summer 2026 SWE Internships (USA)
+- 💼 **Seeking:** SWE Internships/ Full-time Oppurtunities (USA)
 - 🎓 **Studying:** Full stack Development, System Design, AI/ML at Northeastern
 - 🔧 **Building:** Serverless microservices chatbot, Full-stack fitness tracker, ML plant classifier, Fitness tracking webpage
 - 🏆 **Past Impact:** Coordinated 500 GB live data migration with zero data loss across banking infrastructure
